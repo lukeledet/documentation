@@ -177,27 +177,27 @@ Preload lets you specify a JSON markup for the next view **before** the next vie
 
 Here's an example:
 
-{
-  "type": "$href",
-  "options": {
-    "url": "https://www.jasonbase.com/dhen3",
-    "preload": {
-      "style": {
-        "background": "#ff0000"
-      },
-      "layers": [{
-        "type": "image",
-        "url": "file://loading.gif",
-        "style": {
-          "top": "50%-25",
-          "left": "50%-25",
-          "width": "50",
-          "height": "50"
+    {
+      "type": "$href",
+      "options": {
+        "url": "https://www.jasonbase.com/dhen3",
+        "preload": {
+          "style": {
+            "background": "#ff0000"
+          },
+          "layers": [{
+            "type": "image",
+            "url": "file://loading.gif",
+            "style": {
+              "top": "50%-25",
+              "left": "50%-25",
+              "width": "50",
+              "height": "50"
+            }
+          }]
         }
-      }]
+      }
     }
-  }
-}
 
 Notice that 
 
